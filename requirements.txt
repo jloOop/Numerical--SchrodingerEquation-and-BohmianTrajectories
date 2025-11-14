@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+numba
+# cupy optional for GPU: choose the cupy package matching your CUDA (e.g. cupy-cuda11x)
