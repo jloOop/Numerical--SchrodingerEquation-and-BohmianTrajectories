@@ -1,13 +1,15 @@
 # Python-Scripts
 
-## Solvers:
+## Solvers
 
-**1. Schrödinger Eqn**
-   The script `solver_3D_spinor.py` implements the full 3D spinor Schrödinger time evolution using a Crank–Nicolson scheme on a Cartesian grid. It includes Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, and a GPU-accelerated sparse linear solve (CuPy + GMRES). The code sets up the initial spinor wave packet, advances it in time, and writes all relevant data to disk (coordinate grids, constants, `rho_prob_t*.npy`, `prob_times.npy`, `total_probs.npy`, etc.) for later analysis, along with Bohmian trajectory data in selected runs.
+**1. 3D Spinor Schrödinger Equation**
 
-**2. BohmianEquation**
+The script `solver_3D_spinor.py` implements the full 3D time evolution of a two-component (spinor) wave function using a Crank–Nicolson scheme on a Cartesian grid. It uses Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, and a GPU-accelerated sparse linear solve (CuPy + GMRES with a simple diagonal preconditioner). The code constructs the harmonic-oscillator–like trapping potential in the transverse plane, prepares a localized spinor wave packet, advances it in time, and writes all relevant output to disk (coordinate grids, constants, `rho_prob_t*.npy` snapshots at fixed physical times, `prob_times.npy`, `total_probs.npy`, logs, etc.) in a format that is directly compatible with the post-processing scripts.
 
-The same script gets the solution computed by the Schrodinger solver and use that solution to numerically calculated the spin-dependent Bohmian trajectories.
+**2. Spin-dependent Bohmian Dynamics**
+
+Within the same script, the numerically computed spinor solution is also used to set up and propagate Bohmian particle trajectories. Initial particle positions are sampled from the underlying probability density, and the dynamics are governed by the spin-dependent Bohmian velocity field associated with the evolving spinor wave function. The code is designed to track a large ensemble of particles, monitor first-arrival at the top absorbing plane, and (optionally) store a selected subset of trajectories and arrival times for detailed analysis and visualization.
+
 
  ## Loaders:
 5.
