@@ -1,8 +1,28 @@
 # Selected 3D Visualizations and Single-Particle Evolution
 
-This section presents a selected set of numerical results from the paper "…".  
-It includes:
+This repository presents a selected set of numerical results related to the paper “[…]” (title to be inserted).  
+It is organized into two main folders:
 
-- 3D time evolution (GIFs) of a spinor wave packet in a finite box,  
-- propagation towards and interaction with an absorbing boundary condition at the top (with and without spinor structure at the boundary),  
-- Bohmian particle trajectories guided by the probability density and the spin-dependent Bohmian equation of motion.
+---
+
+## 1. `Python-Scripts/`
+
+This folder contains the **solver scripts** and **loader/post-processing scripts**:
+
+- **Solver scripts**: time-dependent Schrödinger solvers (1D and 3D), including spinor dynamics, absorbing boundary conditions, and Bohmian trajectories.  
+- **Loader / post-processing scripts**: tools to read the saved data (e.g. `rho_prob_t*.npy`) and generate visualizations such as contour plots, isosurfaces, 3D scatter plots, and animations (GIFs).
+
+The idea is to keep **physics / numerics** (solvers) and **visualization** (loaders) clearly separated.
+
+---
+
+## 2. `Outputs/`
+
+This folder collects representative results for the setups studied in the paper.  
+It includes, for various parameter choices:
+
+- **3D time evolution (GIFs)** of a spinor wave packet in a finite box,  
+- **Propagation towards and interaction with an absorbing boundary condition** at the top (with and without spinor structure at the boundary),  
+- **Bohmian particle trajectories**, guided by the probability density and the spin-dependent Bohmian equation of motion.
+
+Together, these outputs provide a visual companion to the theoretical and numerical analysis presented in the paper.
