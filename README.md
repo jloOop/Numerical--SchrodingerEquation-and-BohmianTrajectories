@@ -21,6 +21,8 @@ To see the details of the solver look at "!!!"
 5. **Mathematical Approach**:  
    The solvers use mainly finite difference discretization for the PDE, with Crank-Nicolson for time-stepping to ensure stability and correct implemenatation of (non)unitarity of the big matrices with suitable boundary conditions include Dirichlet, Neumann, and Robin (absorbing) to for instance answer some question regarding Bohmian mechanics and Bohmian trajectory ariival time of a particle in finite boxes.
 
+   6. **acknowledgment**  I was introduced to this project with Prof. Roderich Tumulka. It is is my priviledge to have an opportunity to work with him and other here in Tübingen.
+
 ## Getting Started
 
 .....
