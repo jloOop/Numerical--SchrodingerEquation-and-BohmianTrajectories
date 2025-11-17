@@ -3,9 +3,11 @@
 ## Solvers:
 
 **1. Schrödinger Eqn**
-3.   The script `solver_3D_spinor.py` implements the full 3D spinor Schrödinger time evolution using a Crank–Nicolson scheme on a Cartesian grid. It includes Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, and a GPU-accelerated sparse linear solve (CuPy + GMRES). The code sets up the initial spinor wave packet, advances it in time, and writes all relevant data to disk (coordinate grids, constants, `rho_prob_t*.npy`, `prob_times.npy`, `total_probs.npy`, etc.) for later analysis, along with Bohmian trajectory data in selected runs.
+   The script `solver_3D_spinor.py` implements the full 3D spinor Schrödinger time evolution using a Crank–Nicolson scheme on a Cartesian grid. It includes Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, and a GPU-accelerated sparse linear solve (CuPy + GMRES). The code sets up the initial spinor wave packet, advances it in time, and writes all relevant data to disk (coordinate grids, constants, `rho_prob_t*.npy`, `prob_times.npy`, `total_probs.npy`, etc.) for later analysis, along with Bohmian trajectory data in selected runs.
 
 **2. BohmianEquation**
+
+The same script gets the solution computed by the Schrodinger solver and use that solution to numerically calculated the spin-dependent Bohmian trajectories.
 
  ## Loaders:
 5.
