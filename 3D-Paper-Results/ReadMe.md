@@ -16,7 +16,7 @@ The idea is to keep **physics / numerics** (solvers) and **visualization** (load
 
 ---
 
-## 2. `Outputs/`
+## 2. `Outputs_3D/`
 
 This folder collects representative results for the setups studied in the paper.  
 It includes, for various parameter choices:
