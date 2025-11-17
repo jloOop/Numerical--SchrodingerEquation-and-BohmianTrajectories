@@ -1,52 +1,5 @@
-## 3D Postprocessing: Probability, Loss Rate, Plots & GIFs
+## Python-Scripts
 
-This script is a **post-processing pipeline** for my 3D spinor Schrödinger simulations.  
-It reads the simulation output (saved as NumPy arrays), computes global quantities, and generates 2D/3D visualizations and GIFs.
+The script `solver_3D_spinor.py` implements the full 3D spinor Schrödinger time evolution using a Crank–Nicolson scheme on a Cartesian grid. It includes Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, optional Rashba spin–orbit coupling, and a GPU-accelerated sparse linear solve (CuPy + GMRES). The code sets up the initial spinor wave packet, advances it in time, and writes all relevant data to disk (coordinate grids, constants, `rho_prob_t*.npy`, `prob_times.npy`, `total_probs.npy`, etc.) for later analysis, along with Bohmian trajectory data in selected runs.
 
-### What the script does
-
-Once you run it inside (or under) a simulation folder, it:
-
-1. **Automatically finds the data directory**
-
-   - Walks upwards from the script location until it finds a `constants.npz`.
-   - Uses that directory as `data_dir`.
-   - Creates a subfolder:
-     ```text
-     plots_general2/
-     ```
-     where all PNGs and GIFs are written.
-
-2. **Loads simulation metadata and grids**
-
-   Expects the following files in `data_dir`:
-
-   - `constants.npz` with keys:
-     - `Lx, Ly, Lz` – box lengths  
-     - `hx, hy, hz` – grid spacings  
-     - `Nx, Ny, Nz` – grid sizes  
-     - `mid_x, mid_y, mid_z` – middle indices
-   - `X_cpu.npy`, `Y_cpu.npy`, `Z_cpu.npy` – 3D coordinate grids
-
-3. **Total probability vs time**
-
-   Uses:
-   - `prob_times.npy`
-   - `total_probs.npy`
-
-   It:
-
-   - Trims the arrays if their lengths don’t match.
-   - Plots and saves:
-     ```text
-     plots_general2/total_probability_vs_time.png
-     ```
-
-4. **Probability loss rate**
-
-   From `total_probs(t)` it computes the discrete derivative
-   \(-\frac{d}{dt}\|\psi_t\|^2\) using forward/central/backward differences
-   and saves:
-
-   ```text
-   plots_general2/probability_loss_rate_vs_time.png
+The script `postprocess_3D_spinor.py` is a dedicated loader and visualization pipeline for these outputs. It automatically finds the simulation directory, reads the saved arrays, and computes global diagnostics such as total probability and probability loss rate as functions of time. It then generates mid-plane contour panels, XY slice plots, 3D high-density scatter views, and iso-surface plots of the probability density for selected snapshot times (e.g. every Δτ = 0.1), saving them as PNGs in `plots_general2/`. Finally, it assembles these PNG sequences into GIFs for each plot family (midplanes, contour, scatter, iso-surfaces, slice bars), with a small © J & T label embedded directly into each figure.
