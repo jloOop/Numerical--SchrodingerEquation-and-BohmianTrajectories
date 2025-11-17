@@ -9,7 +9,7 @@ It is organized into two main folders:
 
 This folder contains the **solver scripts** and **loader/post-processing scripts**:
 
-- **Solver scripts**: time-dependent Schrödinger solvers (1D and 3D), including spinor dynamics, absorbing boundary conditions, and Bohmian trajectories.  
+- **Solver scripts**: 3D time-dependent Schrödinger solvers, including spinor dynamics, Spinor absorbing boundary conditions, and Bohmian trajectories.  
 - **Loader / post-processing scripts**: tools to read the saved data (e.g. `rho_prob_t*.npy`) and generate visualizations such as contour plots, isosurfaces, 3D scatter plots, and animations (GIFs).
 
 The idea is to keep **physics / numerics** (solvers) and **visualization** (loaders) clearly separated.
