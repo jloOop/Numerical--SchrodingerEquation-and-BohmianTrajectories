@@ -6,7 +6,7 @@
 
 The script `solver_3D_spinor.py` implements the full 3D time evolution of a two-component (spinor) wave function using a Crank–Nicolson scheme on a Cartesian grid. It uses Dirichlet boundary conditions in the transverse directions, a spinor Robin absorbing boundary condition at the top, and a GPU-accelerated sparse linear solve (CuPy + GMRES with a simple diagonal preconditioner). The code constructs the harmonic-oscillator–like trapping potential in the transverse plane, prepares a localized spinor wave packet, advances it in time, and writes all relevant output to disk (coordinate grids, constants, `rho_prob_t*.npy` snapshots at fixed physical times, `prob_times.npy`, `total_probs.npy`, logs, etc.) in a format that is directly compatible with the post-processing scripts.
 
-**2. Spin-dependent Bohmian Dynamics**
+**2. Spin-dependent Bohmian Dynamics and Arrival time**
 
 Within the same script, the numerically computed spinor solution is also used to set up and propagate Bohmian particle trajectories. Initial particle positions are sampled from the underlying probability density, and the dynamics are governed by the spin-dependent Bohmian velocity field associated with the evolving spinor wave function. The code is designed to track a large ensemble of particles, monitor first-arrival at the top absorbing plane, and (optionally) store a selected subset of trajectories and arrival times for detailed analysis and visualization.
 
