@@ -2,7 +2,7 @@
 
 # Numerical PDE solvers to study fundamental questions in quantum mechanics
 
-This repository contains Python-based numerical solvers for the linear time-dependent Schrödinger equation in 3D–3D (space) and 1D (time). The goal is to explore fundamental questions in quantum mechanics, such as the evolution of the wave function of a single particle in a finite box (laboratory-style setup), its trajectories under the Bohmian equation of motion, arrival times of a particle at a detector, and spin–orbit effects under various potentials and boundary conditions, with a focus on absorbing boundary conditions.
+This repository contains Python-based numerical solvers for the linear time-dependent Schrödinger equation in 3D (space) and 1D (time). The goal is to explore fundamental questions in quantum mechanics, such as the evolution of the wave function of a single particle in a finite box (laboratory-style setup), its trajectories under the Bohmian equation of motion, arrival times of a particle at a detector, and spin–orbit effects under various potentials and boundary conditions, with a focus on absorbing boundary conditions.
 
       
 ## Key Features
