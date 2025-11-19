@@ -7,8 +7,8 @@ This repository contains Python-based numerical solvers for the linear time-depe
       
 ## Key Features
 1. **Solvers and Simulations**:  
-   We are discreatizing! Implementations of finite difference methods (e.g., Crank-Nicolson, forward/backward/central differences) to solve the time-dependent Schrödinger equation. Supports 1D and 3D grids with different potential such as harmonic potentials, absorbing boundaries, and spinor extensions for spin-1/2 particles.
-To see the details of the solver look at "!!!"
+   We did discretization. Implementations of finite difference methods (e.g., Crank-Nicolson, forward/backward/central differences) to solve the time-dependent Schrödinger equation. Supports 1D and 3D grids with different potential such as harmonic potentials, absorbing boundaries, and spinor extensions for spin-1/2 particles.
+To see the math details of the solver and problems in general look at "!!!"
 
 3. **Data Analysis and Visualization**:  
    Post-processing scripts analyze simulation data on CPU (using NumPy, SciPy, and Matplotlib). Outputs include probability distributions, Bohmian trajectories, and visualizations like contour plots, GIFs, and histograms of arrival times.
