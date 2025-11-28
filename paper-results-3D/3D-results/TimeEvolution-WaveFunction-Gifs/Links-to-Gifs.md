@@ -1,3 +1,4 @@
+### L_z=10 ###
 
 **01:** [Download (01.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/01.zip).
 Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face, which uses a spinor absorbing boundary condition (ABC). Harmonic-trap frequency: ω = 1. Initial spin (Bloch angle): θ = 0. Full run parameters are in stdout.txt inside the ZIP.
