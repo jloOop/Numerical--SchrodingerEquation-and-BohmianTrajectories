@@ -22,7 +22,7 @@ This folder collects representative results for the setups studied in the paper.
 It includes, for various parameter choices:
 
 - **3D time evolution (GIFs)** of a spinor wave packet in a finite box,  
-- **Propagation towards and interaction with an absorbing boundary condition** at the top (with and without spinor structure at the boundary),  
+- **Propagation towards and interaction with an absorbing boundary condition** at the top (with and without spinor structure at the top boundary),  
 - **Bohmian particle trajectories**, guided by the probability density and the spin-dependent Bohmian equation of motion.
 
 Together, these outputs provide a visual companion to the theoretical and numerical analysis presented in the paper.
