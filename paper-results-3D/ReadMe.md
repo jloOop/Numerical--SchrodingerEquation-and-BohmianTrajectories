@@ -1,6 +1,6 @@
 # Selected 3D Visualizations and Single-Particle Evolution
 
-This repository presents a selected set of numerical results related to the paper “[…]” (title to be inserted).  
+This repository presents a selected set of numerical results related to the paper “[…]”.  
 It is organized into two main folders:
 
 ---
