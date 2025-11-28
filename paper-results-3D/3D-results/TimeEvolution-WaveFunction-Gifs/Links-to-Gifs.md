@@ -1,6 +1,6 @@
 
 **01:** [Download (01.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/01.zip).
-Boundary conditions: Dirichlet at sides, Spinor ABC at top boundary. Angular Frequency of Harmonic Oscilator  ω = 1.  Bloch angle: θ = 0. More info in the `std-out.txt` inside the zip.
+Boundary conditions: Dirichlet at sides (5sides), Spinor ABC at top boundary (1side). Angular Frequency of Harmonic Oscilator  ω = 1.  Bloch angle: θ = 0. More info in the `std-out.txt` inside the zip.
 
 **02:** [Download (02.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/02.zip).
 Boundary conditions: Dirichlet at sides, Spinor ABC at top boundary. Angular Frequency of Harmonic Oscilator  ω = 1.  Bloch angle: θ = π/3. More info in the `std-out.txt` inside the zip.
