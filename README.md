@@ -21,7 +21,7 @@ This repository contains Python-based numerical solvers and post-processing tool
    The numerical schemes are designed to treat both unitary and non-unitary evolution in a consistent finite-difference framework, with particular attention to absorbing boundary conditions and detector models relevant to arrival-time questions.
 
 5. **Acknowledgment**  
-   I was introduced to this project by Prof. Roderich Tumulka, and it is a privilege to work under his supervision in Tübingen, Germany. I also gratefully acknowledge the computational resources provided by the Helix cluster, NHR@Paderborn (PC²), and NHR@ZIB.
+   I was introduced to this project by Prof. Roderich Tumulka, and it is a privilege to work under his supervision in Tübingen, Germany. We also gratefully acknowledge the computational resources provided by the Helix cluster, NHR@Paderborn (PC²), and NHR@ZIB.
 
 ## Getting Started
 
