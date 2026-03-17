@@ -28,13 +28,13 @@ Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the �
 ## Box length in propagation direction: L_z = 100 
 
 
-**07:** [Download (08.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/07.zip). Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face on top, which uses a spinor ABC. Harmonic-trap frequency: `ω = 1`. Initial spin (Bloch angle): `θ = 0`. Full run parameters are in `std-out.txt` inside the ZIP.
+**07:** [Download (07.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/07.zip). Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face on top, which uses a spinor ABC. Harmonic-trap frequency: `ω = 1`. Initial spin (Bloch angle): `θ = 0`. Full run parameters are in `std-out.txt` inside the ZIP.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 ## High Frame Gif.  Box length in propagation direction: L_z = 10
 
-**08:** [Download (07.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/08.zip). Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face on top, which uses a spinor ABC. Harmonic-trap frequency: `ω = 200`. Initial spin (Bloch angle): `θ = π/3 `. Full run parameters are in `std-out.txt` inside the ZIP.
+**08:** [Download (08.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/08.zip). Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face on top, which uses a spinor ABC. Harmonic-trap frequency: `ω = 200`. Initial spin (Bloch angle): `θ = π/3 `. Full run parameters are in `std-out.txt` inside the ZIP.
 
 
 
