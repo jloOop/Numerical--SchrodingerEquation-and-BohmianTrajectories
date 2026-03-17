@@ -1,28 +1,28 @@
+# Numerical simulations of quantum particle dynamics and arrival-time problems
 
+This repository contains Python-based numerical solvers and post-processing tools for the linear time-dependent Schrödinger equation in finite-box and waveguide geometries. Its main focus is the long-standing problem of quantum arrival-time distributions, with absorbing boundary conditions and complex absorbing potentials serving as detector models. The code further supports Bohmian trajectory analysis, probability-current diagnostics, and studies of how arrival-time statistics depend on confinement, spin structure, and boundary conditions. It includes simulations for both spin-0 and spin-1/2 particles.
 
-# Numerical PDE solvers to study fundamental questions in quantum mechanics
-
-This repository contains Python-based numerical solvers for the linear time-dependent Schrödinger equation in 3D (space) and 1D (time). The goal is to explore basic questions in quantum mechanics, such as the evolution of the wave function of a single particle in a finite box (laboratory-style setup), its trajectories under the Bohmian equation of motion, arrival times of a particle at a detector, and spin–orbit effects under various potentials and boundary conditions, with a focus on absorbing boundary conditions.
-
-      
 ## Key Features
-1. **Solvers and Simulations**:  
-   We did discretization. Implementations of finite difference methods (e.g., Crank-Nicolson, forward/backward/central differences) to solve the time-dependent Schrödinger equation. Supports 1D and 3D grids with different potential such as harmonic potentials, absorbing boundaries, and spinor extensions for spin-1/2 particles.
-To see the math details of the solver and problems in general look at "!!!"
 
-3. **Data Analysis and Visualization**:  
-   Post-processing scripts analyze simulation data on CPU (using NumPy, SciPy, and Matplotlib). Outputs include probability distributions, Bohmian trajectories, and visualizations like contour plots, GIFs, and histograms of arrival times.
+1. **Solvers and simulations**  
+   Python implementations of finite-difference solvers for the time-dependent Schrödinger equation, with emphasis on Crank–Nicolson time stepping and standard forward, backward, and central difference discretizations. The framework supports both 1D and 3D grids, including harmonic potentials, complex absorbing potentials, absorbing boundary conditions, and spinor extensions for spin-1/2 particles.
 
-4. **Technology Stack**:  
-   - Primary focus on GPU acceleration using CUDA via CuPy for high-performance simulations.  
-   - Tested on NVIDIA A40, A100 and H200 GPUs on the Helix cluster, but includes CPU fallbacks.  
-   - Core libraries: CuPy, NumPy, SciPy, Matplotlib. No external dependencies beyond Python 3.8+ and CUDA 11+ for GPU mode.
+   For the mathematical formulation of the problems and details of the numerical methods, see `!!!`.
 
-5. **Mathematical Approach**:  
-   The solvers use mainly finite difference discretization for the PDE, with Crank-Nicolson for time-stepping to ensure stability and correct implemenatation of (non)unitarity of the big matrices with suitable boundary conditions include Dirichlet, Neumann, and Robin (absorbing) to for instance answer some question regarding Bohmian mechanics and Bohmian trajectory ariival time of a particle in finite boxes.
+2. **Data analysis and visualization**  
+   Post-processing scripts analyze simulation output on the CPU using NumPy, SciPy, and Matplotlib. They produce probability-density plots, Bohmian trajectory visualizations, contour plots, arrival-time histograms, and animated GIFs for interpreting the dynamics and detector statistics.
 
-   6. **acknowledgment**  I was introduced to this project with Prof. Roderich Tumulka and funded my project with Dean. It is is my priviledge to have an opportunity to work him and other here in Tübingen.
+3. **Technology stack**  
+   - Primary focus on GPU acceleration using CUDA through CuPy for high-performance simulations.  
+   - Tested on NVIDIA A40, A100, and H200 GPUs on the Helix cluster, with CPU fallbacks also available.  
+   - Core libraries include CuPy, NumPy, SciPy, and Matplotlib, with no external dependencies beyond Python 3.8+ and CUDA 11+ for GPU mode.
+
+4. **Mathematical approach**  
+   The numerical schemes are designed to treat both unitary and non-unitary evolution in a consistent finite-difference framework, with particular attention to absorbing boundary conditions and detector models relevant to arrival-time questions.
+
+5. **Acknowledgment**  
+   I was introduced to this project by Prof. Roderich Tumulka, and it is a privilege to work under his supervision in Tübingen, Germany. I also gratefully acknowledge the computational resources provided by the Helix cluster, NHR@Paderborn (PC²), and NHR@ZIB.
 
 ## Getting Started
 
-.....
+...
