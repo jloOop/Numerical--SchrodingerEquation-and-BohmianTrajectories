@@ -22,3 +22,15 @@ Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the �
 
 **06:** [Download (06.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/06.zip).
 Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face, which uses a spinor ABC. Harmonic-trap frequency: `ω = 200`. Initial spin (Bloch angle): `θ = π/2`. Full run parameters are in `std-out.txt` inside the ZIP.
+
+
+
+## Box length in propagation direction: L_z = 100 
+
+
+
+
+**07:** [Download (07.zip)](https://github.com/jloOop/Numerical--SchrodingerEquation-and-BohmianTrajectories/releases/download/v1.0-3D-paper/07.zip). Boundary conditions: hard-wall (Dirichlet) on all faces of the box except the “detector” face on top, which uses a spinor ABC. Harmonic-trap frequency: `ω = 1`. Initial spin (Bloch angle): `θ = 0`. Full run parameters are in `std-out.txt` inside the ZIP.
+
+
+
