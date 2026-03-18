@@ -1,6 +1,6 @@
 # Numerical methods for quantum particle arrival-time problems
 
-This repository contains Python-based numerical solvers and post-processing tools for the linear time-dependent Schrödinger equation in finite-box and waveguide geometries. Its main focus is the long-standing problem of quantum arrival-time distributions, with absorbing boundary conditions and complex absorbing potentials serving as detector models. The code further supports Bohmian trajectory analysis, probability-current diagnostics, and studies of how arrival-time statistics depend on confinement, spin structure, and boundary conditions. It includes simulations for both spin-0 and spin-1/2 particles.
+This repository contains Python-based numerical solvers and post-processing tools for the linear time-dependent Schrödinger equation in finite-box and waveguide geometries. Its main focus is the long-standing problem of quantum arrival-time distributions, based on absorbing boundary conditions and complex absorbing potentials serving as detector models. The code further supports Bohmian trajectory analysis, probability-current diagnostics, and studies of how arrival-time statistics depend on confinement, spin structure, and boundary conditions. It includes simulations for both spin-0 and spin-1/2 particles.
 
 ## Key Features
 
