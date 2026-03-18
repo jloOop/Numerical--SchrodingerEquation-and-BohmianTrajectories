@@ -5,7 +5,7 @@ This repository contains Python-based numerical solvers and post-processing tool
 ## Key Features
 
 1. **Solvers and simulations**  
-   Python implementations of finite-difference solvers for the time-dependent Schrödinger equation, with emphasis on Crank–Nicolson time stepping and standard forward, backward, and central difference discretizations. The framework supports both 1D and 3D grids, including harmonic potentials, complex absorbing potentials, absorbing boundary conditions, and spinor extensions for spin-1/2 particles.
+   Python implementations of finite-difference solvers for the time-dependent Schrödinger equation, with emphasis on Crank–Nicolson time stepping and standard forward, backward, and central difference discretizations. The framework supports both 1D and 3D grids, including harmonic potentials confinement, complex absorbing potentials, absorbing boundary conditions, and spinor extensions for spin-1/2 particles.
 
    For the mathematical formulation of the problems and details of the numerical methods, see `!!!`.
 
