@@ -23,6 +23,4 @@ This repository contains Python-based numerical solvers and post-processing tool
 5. **Acknowledgment**  
    I was introduced to this project by Prof. Roderich Tumulka, and it is a privilege to work under his supervision in Tübingen, Germany. We also gratefully acknowledge the computational resources provided by the Helix cluster, NHR@Paderborn (PC²), and NHR@ZIB.
 
-## Getting Started
 
-...
