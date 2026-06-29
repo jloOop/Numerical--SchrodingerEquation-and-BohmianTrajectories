@@ -27,7 +27,6 @@ The key point is that **detector-present detection-time distributions** are not 
 | Goal | Open first | Notes |
 |---|---|---|
 | Understand the project | `PROJECT_SCOPE.md` | Scope, supported claims, and claim boundaries. |
-| See repository organization | `REORG_PLAN.md` | Current structure and safe future cleanup plan. |
 | Inspect 1D examples | `1D/README.md` | CPU-friendly 1D workflow and figures/GIFs. |
 | Inspect selected 3D outputs | `Data/README.md` | Selected data/GIF/release links, not full raw HPC output. |
 | Inspect paper context | `Paper/README.md` | Paper PDF and citation-status notes. |
