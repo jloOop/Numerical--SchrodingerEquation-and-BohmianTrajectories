@@ -7,8 +7,8 @@ Representative 3D output material for wave-function evolution, detector interact
 
 ## What to open first
 
-- `Bohmian-Trajectories/` for trajectory release links.
 - `TimeEvolution-WaveFunction-Gifs/` for GIF release links.
+- `Bohmian-Trajectories/` for trajectory release links.
 
 ## What is reproducible
 
