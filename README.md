@@ -17,7 +17,7 @@ Repository status note: this repository contains publication-related research co
 The project studies how to compute the distribution of the time at which a quantum detector registers a particle. The simulations compare various detector-present models based on:
 
 - **absorbing boundary conditions** (ABC), where probability is removed through a detecting boundary;
-- **complex absorbing potentials** (CAP), where probability is removed in an absorbing detector region;
+- **complex absorbing potentials** (CAP), where probability is removed in an absorbing detector region/layer;
 - **diagnostic trajectory sampling**, where Bohmian trajectories are used as a numerical comparison or sampling tool inside the detector-model context.
 
 The key point is that **detector-present detection-time distributions** are not the same object as a detector-free arrival-time proposal. Bohmian trajectories in this repository should be read as trajectory sampling and diagnostic comparison, not as an experimental measurement claim and not as a universal arrival-time law.
