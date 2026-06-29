@@ -14,7 +14,7 @@ Repository status note: this repository contains publication-related research co
 
 ## Scientific problem
 
-The project studies how to compute the distribution of the time at which a quantum detector registers a particle. The simulations compare detector-present models based on:
+The project studies how to compute the distribution of the time at which a quantum detector registers a particle. The simulations compare various detector-present models based on:
 
 - **absorbing boundary conditions** (ABC), where probability is removed through a detecting boundary;
 - **complex absorbing potentials** (CAP), where probability is removed in an absorbing detector region;
