@@ -27,35 +27,6 @@ Do not use this repository to claim:
 - a universal arrival-time law;
 - complete reproducibility of all raw HPC outputs inside the Git repository.
 
-## Safe CV wording
-
-```text
-Maintained a public research-code repository supporting numerical quantum-dynamics simulations, detector-time statistics, probability-current diagnostics, Bohmian trajectory sampling, plotting, and representative post-processing material.
-```
-
-```text
-Used Python/CuPy finite-difference workflows for non-Hermitian Schrödinger/Pauli detector models involving absorbing boundary conditions and complex absorbing potentials.
-```
-
-## Safe recruiter wording
-
-```text
-This GitHub repository is a research-code and reproducibility portfolio for numerical quantum detection-time simulations. It shows Python/CuPy scientific-computing workflows, absorbing-boundary and complex-absorbing-potential detector models, diagnostic post-processing, selected figures, and representative animations.
-```
-
-## Safe technical-hiring-manager wording
-
-```text
-The repository documents finite-difference Schrödinger/Pauli detector-model workflows, non-Hermitian ABC/CAP evolution, probability-current and norm-loss diagnostics, and trajectory sampling/post-processing used for publication-related numerical analysis. It should be evaluated as research code, not as a production solver library.
-```
-
-## Publication / reproducibility scope
-
-The repository is associated with:
-
-> A. Jozani and R. Tumulka, “Detection Time Distribution Predicted Using Absorbing Boundary Conditions and Imaginary Potentials.”
-
-The repository can document selected scripts, parameters, reduced outputs, figures, and media used for publication-related analysis. It should not be expected to contain every raw HPC output file. Large raw outputs should be kept external or attached through releases with clear provenance.
 
 ## Technical distinctions to preserve
 
