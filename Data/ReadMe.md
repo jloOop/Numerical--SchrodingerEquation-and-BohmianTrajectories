@@ -31,31 +31,3 @@ Together, these outputs provide a visual companion to the theoretical and numeri
 
 
 
-# Data
-
-## What is here
-
-This folder contains selected data, representative 3D results, release links, GIF indexes, and trajectory-output links for the numerical detector-model simulations.
-
-## What to open first
-
-Start with:
-
-```text
-Data/3D-results/
-Data/3D-results/Bohmian-Trajectories/
-Data/3D-results/TimeEvolution-WaveFunction-Gifs/
-```
-
-## What is reproducible
-
-The committed files and linked releases can support inspection of representative outputs, selected trajectories, and visualization products. They are not necessarily a complete raw-output archive.
-
-## What is legacy / heavy / HPC-dependent
-
-Full 3D simulations and raw HPC arrays may be large. Keep full raw outputs external or in GitHub Releases, and document any release link, parameter set, and expected output clearly.
-
-## What not to overclaim
-
-Do not claim that every paper figure can be regenerated from committed data alone unless that has been manually verified. Do not describe trajectory files as experimental measurement data.
-
